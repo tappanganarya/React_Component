@@ -1,4 +1,8 @@
 function Header() {
-    return <h1>Ini Header</h1>;
+    return (
+        <div className="img">
+            <img src="/images/cause03.jpg" alt="gambar" />
+        </div>
+    )
 }
 export default Header;
